@@ -28,14 +28,5 @@ public class QuanLyNhanSu {
 				ketQua.add(conNguoi);
 		return ketQua;
 	}
-	public void lietKeThongTinNhanSu2(ArrayList<ConNguoi> nhanSu) {
-		if (nhanSu.size() == 0)
-			System.out.println("Không có nhân viên nào.");
-		else
-			for(int i=0; i<nhanSu.size(); i++) {
-				ConNguoi conNguoi = nhanSu.get(i);
-				System.out.println(conNguoi.toString());
-			}
-		
-	}
+
 }
